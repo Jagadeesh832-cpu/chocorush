@@ -1,3 +1,5 @@
+# ChocoRush – Luxury Chocolate Delivery Website
+A premium chocolate e-commerce platform with cart, checkout and admin dashboard.
 # ChocoRush - Luxury Chocolate Delivery Website
 
 A premium chocolate e-commerce platform (similar to Swiggy/Zomato for chocolates) with luxury dark chocolate aesthetic, JWT auth, full cart & checkout, booking, location tracking, and admin dashboard.
@@ -121,3 +123,7 @@ npm run build
 ```
 
 Output in `frontend/dist`.
+
+# chocorush
+Chocolate ordering website with cart and payment demo
+
