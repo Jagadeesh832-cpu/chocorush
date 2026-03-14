@@ -1,0 +1,22 @@
+{
+  "name": "chocorush",
+  "version": "1.0.0",
+  "description": "Luxury Chocolate Ordering Website",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "build": "cd frontend && npm run build",
+    "postinstall": "cd frontend && npm install && cd ../backend && npm install",
+    "install:all": "npm install && cd frontend && npm install && cd ../backend && npm install",
+    "dev": "concurrently \"npm run dev:frontend\" \"npm run dev:backend\"",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && npm run dev",
+    "seed": "cd backend && npm run seed"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
